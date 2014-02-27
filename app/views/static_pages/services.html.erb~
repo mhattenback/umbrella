@@ -1,0 +1,15 @@
+
+<% provide(:title, 'Services') %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Umbrella Roofing | <%= yield(:title) %></title>
+  </head>
+  <body>
+    <h1>Services</h1>
+    <p>
+      We offer everything from a full roof replacement to maintinace services which will extend the life of your roof.
+    </p>
+  </body>
+</html>
+

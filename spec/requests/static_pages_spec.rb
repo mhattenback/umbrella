@@ -1,0 +1,41 @@
+require 'spec_helper'
+
+describe "Static pages" do
+
+  describe "Home page" do
+
+    it "should have the content 'Umbrella'" do
+      visit '/static_pages/home'
+      expect(page).to have_content('Umbrella')
+    end
+    
+    it "should have the title 'Home'" do
+      visit '/static_pages/home'
+      expect(page).to have_title("Umbrella Roofing | Home")
+    end
+  end
+  describe "Services page" do
+
+    it "should have the content 'services'" do
+      visit '/static_pages/services'
+      expect(page).to have_content('services')
+    end
+    
+    it "should have the title 'Services'" do
+      visit '/static_pages/services'
+      expect(page).to have_title("Umbrella Roofing | Services")
+    end
+  end
+  describe "Contact page" do
+
+    it "should have the content 'contact'" do
+      visit '/static_pages/contact'
+      expect(page).to have_content('contact')
+    end
+    it "should have the title 'Contact'" do
+      visit '/static_pages/contact'
+      expect(page).to have_title("Umbrella Roofing | Contact")
+    end
+  end
+end
+

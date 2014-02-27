@@ -1,0 +1,15 @@
+
+<% provide(:title, 'Contact') %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Umbrella Roofing | <%= yield(:title) %></title>
+  </head>
+  <body>
+    <h1>Contact</h1>
+    <p>
+      contact us at 631 368 0800
+    </p>
+  </body>
+</html>
+
