@@ -1,0 +1,8 @@
+
+<% provide(:title, 'Coming Soon') %>
+
+<p>Website Under Construction.</p>
+
+<p>Contact us at 631 368 0800 for a free estimate.</p>
+
+    
