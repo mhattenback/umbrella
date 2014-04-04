@@ -1,5 +1,6 @@
 UmbrellaSite::Application.routes.draw do
-  root  'static_pages#home'
+  #root  'static_pages#home' remove comment when you want to switch from under cons page
+  root  'static_pages#construction'
   match '/contact', to: "static_pages#contact", via: 'get'
   match '/services', to: "static_pages#services", via: 'get'
  
