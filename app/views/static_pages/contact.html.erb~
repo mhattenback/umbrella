@@ -1,15 +1,14 @@
 
 <% provide(:title, 'Contact') %>
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Umbrella Roofing | <%= yield(:title) %></title>
-  </head>
-  <body>
-    <h1>Contact</h1>
-    <p>
-      contact us at 631 368 0800
-    </p>
-  </body>
-</html>
+
+<h1>Contact</h1>
+<p>
+  Phone: 631 368 0800 <br />
+  Email: <a href="mailto:umbrellahomeimprovement@gmail.com" target="_top">
+umbrellahomeimprovement@gmail.com</a> <br />
+  
+
+
+  Please contact us today for a free, no obligation estimate. <br />
+</p>
 

@@ -9,6 +9,10 @@ html {
 body {
   padding-top: 60px;
   background-image: url('background.jpg');
+  ul {
+    color: #FFF021;
+    font-weight: bold;
+  }
 }
 
 section {
@@ -28,12 +32,26 @@ textarea {
 }
 
 .wrapper {
-  background: white;
+  background: #061145;
   margin: 0 auto;
   padding: 0;
   position: relative;
   width: 1012px;
 
+}
+
+#house {
+  float: left;
+
+}
+
+#roof {
+  float: right;
+}
+
+#ridge {
+  margin-left: 50;
+  margin-right: 50;
 }
 
 /* typography */
@@ -63,25 +81,49 @@ p {
   font-size: 1.1em;
   line-height: 1.7em;
   text-align: center;
-  color: #FFF021
+  color: #FFF021;
+  font-weight: bold;
 }
 
 
 /* header */
 
+
 #logo {
-  float: left;
-  margin-right: 10px;
-  font-size: 1.7em;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  padding-top: 9px;
-  font-weight: bold;
-  line-height: 1;
+
+ 
 }
 
-#logo:hover {
-  color: #fff;
-  text-decoration: none;
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #999;
 }
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
+}
+
+
+

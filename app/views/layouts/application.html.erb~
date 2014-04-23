@@ -13,14 +13,16 @@
   
   
   <body>
-    <header class="navbar navbar-fixed-top navbar-inverse">
+    <header class="navbar navbar-static-top navbar-inverse">
       <div class="navbar-inner">
         <div class="container">
           <%= link_to image_tag("logo.png", alt: "Umbrella", id: 'logo'), root_path %>
+          UMBRELLA HOME IMPROVEMENT
           <nav>
             <ul class="nav pull-right">
               <li><%= link_to "Home",    root_path %></li>
               <li><%= link_to "Services",  services_path %></li>
+              <li><%= link_to "Materials",  services_path %></li>
               <li><%= link_to "Gallery", gallery_path %></li>
               <li><%= link_to "Contact", contact_path %></li>
             </ul>
@@ -34,6 +36,23 @@
       </div>
     </div>
   </body>
+  
+  <footer class="footer">
+  
+  
+  <nav>
+    <ul>
+      <li><%= link_to "Home",   root_path %></li>
+      <li><%= link_to "Services", services_path %></li>
+      <li><%= link_to "Gallery", gallery_path %></li>
+      <li><%= link_to "Contact", contact_path %></li>
+    </ul>
+  </nav>
+  <%= image_tag("bbb.jpeg", alt: "BBB Acreddited", id: 'bbb') %>
+  <%= image_tag("cert.jpeg", alt: "Certainteed", id: 'cert') %>
+  <%= image_tag("oc.jpg", alt: "Owens Corning", id: 'oc') %>
+  
+</footer>
 </html>
 
 
