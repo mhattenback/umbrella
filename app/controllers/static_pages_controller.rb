@@ -8,6 +8,9 @@ class StaticPagesController < ApplicationController
   def services
   end
   
+  def gallery
+  end
+  
   def construction
     render :layout => "construction.html.erb"
   end

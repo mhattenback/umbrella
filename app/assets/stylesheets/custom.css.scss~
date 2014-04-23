@@ -8,7 +8,7 @@ html {
 
 body {
   padding-top: 60px;
-  background-color: #091070;
+  background-image: url('background.jpg');
 }
 
 section {
@@ -25,6 +25,15 @@ textarea {
 
 .center h1 {
   margin-bottom: 10px;
+}
+
+.wrapper {
+  background: white;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  width: 1012px;
+
 }
 
 /* typography */
@@ -54,6 +63,7 @@ p {
   font-size: 1.1em;
   line-height: 1.7em;
   text-align: center;
+  color: #FFF021
 }
 
 

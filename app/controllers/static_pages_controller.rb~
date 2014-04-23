@@ -9,6 +9,6 @@ class StaticPagesController < ApplicationController
   end
   
   def construction
-    render :layout => :construction
+    render :layout => "construction.html.erb"
   end
 end
