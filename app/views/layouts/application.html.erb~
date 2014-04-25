@@ -22,7 +22,7 @@
             <ul class="nav pull-right">
               <li><%= link_to "Home",    root_path %></li>
               <li><%= link_to "Services",  services_path %></li>
-              <li><%= link_to "Materials",  services_path %></li>
+              <li><%= link_to "Materials",  materials_path %></li>
               <li><%= link_to "Gallery", gallery_path %></li>
               <li><%= link_to "Contact", contact_path %></li>
             </ul>
@@ -37,10 +37,12 @@
     </div>
   </body>
   
+  
+  <div class="navbar navbar-fixed-bottom">
   <footer class="footer">
   
   
-  <nav>
+  <nav >
     <ul>
       <li><%= link_to "Home",   root_path %></li>
       <li><%= link_to "Services", services_path %></li>
@@ -53,6 +55,7 @@
   <%= image_tag("oc.jpg", alt: "Owens Corning", id: 'oc') %>
   
 </footer>
+</div>
 </html>
 
 

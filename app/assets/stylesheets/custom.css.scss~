@@ -8,7 +8,8 @@ html {
 
 body {
   padding-top: 60px;
-  background-image: url('background.jpg');
+  /* background-image: url('background.jpg'); */
+  background: #061145;
   ul {
     color: #FFF021;
     font-weight: bold;
@@ -40,19 +41,7 @@ textarea {
 
 }
 
-#house {
-  float: left;
 
-}
-
-#roof {
-  float: right;
-}
-
-#ridge {
-  margin-left: 50;
-  margin-right: 50;
-}
 
 /* typography */
 
@@ -88,6 +77,23 @@ p {
 
 /* header */
 
+.navbar-inverse .navbar-inner {
+  background-color: #ffea5f; /* Old browsers */
+ background-image: none;
+}
+
+.navbar-inverse .navbar-inner {
+  background-image: -moz-linear-gradient(top, #ffea5f 2%, #ffea5f 43%, #fedd04 93%); /* FF3.6+ */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#ffea5f), color-stop(43%,#ffea5f), color-stop(93%,#fedd04)); /* Chrome,Safari4+ */
+  background-image: -webkit-linear-gradient(top, #ffea5f 2%,#ffea5f 43%,#fedd04 93%); /* Chrome10+,Safari5.1+ */
+  background-image: -o-linear-gradient(top, #ffea5f 2%,#ffea5f 43%,#fedd04 93%); /* Opera 11.10+ */
+  background-image: -ms-linear-gradient(top, #ffea5f 2%,#ffea5f 43%,#fedd04 93%); /* IE10+ */
+  background-image: linear-gradient(to bottom, #ffea5f 2%,#ffea5f 43%,#fedd04 93%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffea5f', endColorstr='#fedd04',GradientType=0 ); /* IE6-9 */
+}
+
+
+
 
 #logo {
 
@@ -97,7 +103,7 @@ p {
 /* footer */
 
 footer {
-  margin-top: 45px;
+  margin-top: 350px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #999;
@@ -124,6 +130,11 @@ footer ul li {
   float: left;
   margin-left: 10px;
 }
+
+
+
+
+
 
 
 
