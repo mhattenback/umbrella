@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    
+    
+  
     <title>Umbrella Roofing | <%= yield(:title) %></title>
     <%= stylesheet_link_tag "application", media: "all",
                                            "data-turbolinks-track" => true %>
@@ -56,6 +59,8 @@
   
 </footer>
 </div>
+
+
 </html>
 
 
