@@ -1,2 +1,145 @@
 @import "bootstrap";
 
+/* universal */
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  padding-top: 60px;
+  /* background-image: url('background.jpg'); */
+  background: #061145;
+  ul {
+    color: #FFF021;
+    font-weight: bold;
+  }
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  background: #061145;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  width: 1012px;
+
+}
+
+
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+  color: #FFF021
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #999;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+  text-align: center;
+  color: #FFF021;
+  font-weight: bold;
+}
+
+
+/* header */
+
+.navbar-inverse .navbar-inner {
+  background-color: #ffea5f; /* Old browsers */
+ background-image: none;
+}
+
+.navbar-inverse .navbar-inner {
+  background-image: -moz-linear-gradient(top, #ffea5f 2%, #ffea5f 43%, #fedd04 93%); /* FF3.6+ */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#ffea5f), color-stop(43%,#ffea5f), color-stop(93%,#fedd04)); /* Chrome,Safari4+ */
+  background-image: -webkit-linear-gradient(top, #ffea5f 2%,#ffea5f 43%,#fedd04 93%); /* Chrome10+,Safari5.1+ */
+  background-image: -o-linear-gradient(top, #ffea5f 2%,#ffea5f 43%,#fedd04 93%); /* Opera 11.10+ */
+  background-image: -ms-linear-gradient(top, #ffea5f 2%,#ffea5f 43%,#fedd04 93%); /* IE10+ */
+  background-image: linear-gradient(to bottom, #ffea5f 2%,#ffea5f 43%,#fedd04 93%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffea5f', endColorstr='#fedd04',GradientType=0 ); /* IE6-9 */
+  
+  ul {
+    color: blue;
+  }
+}
+
+
+
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+ 
+}
+
+/* footer */
+
+footer {
+  margin-top: 350px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #999;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+

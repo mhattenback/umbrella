@@ -47,6 +47,3 @@ We are owned by a third and fourth generation roofer and are a family buisiness.
 and guarantee your satisfaction. Please contact us for a free estimate at 631-368-0800.</p>
 
 
-
-<%= image_tag("ridge.jpeg", id: 'ridge') %>
-<%= image_tag("certroof.jpeg", id: 'roof') %>
