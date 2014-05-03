@@ -67,7 +67,7 @@ h2 {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.3em;
   line-height: 1.7em;
   text-align: center;
   color: #FFF021;
@@ -95,7 +95,7 @@ p {
 }
 
 .navbar .nav > li > a {
-   
+   font-size: 1.3em;
    color: blue;
  
  }
