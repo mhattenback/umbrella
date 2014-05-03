@@ -91,12 +91,14 @@ p {
   background-image: linear-gradient(to bottom, #ffea5f 2%,#ffea5f 43%,#fedd04 93%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffea5f', endColorstr='#fedd04',GradientType=0 ); /* IE6-9 */
   
-  ul {
-    color: blue;
-  }
+ 
 }
 
-
+.navbar .nav > li > a {
+   
+   color: blue;
+ 
+ }
 
 
 #logo {
@@ -137,27 +139,6 @@ footer ul li {
 
 
 
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Pad the edges of the mobile views a bit */
-.marketing {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 20px;
-  text-align: center;
-}
-.marketing h2 {
-  font-weight: normal;
-}
-.marketing .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
-}
 
 
 

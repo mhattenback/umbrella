@@ -67,7 +67,7 @@ h2 {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.3em;
   line-height: 1.7em;
   text-align: center;
   color: #FFF021;
@@ -91,12 +91,14 @@ p {
   background-image: linear-gradient(to bottom, #ffea5f 2%,#ffea5f 43%,#fedd04 93%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffea5f', endColorstr='#fedd04',GradientType=0 ); /* IE6-9 */
   
-  ul {
-    color: blue;
-  }
+ 
 }
 
-
+.navbar .nav > li > a {
+   font-size: 1.3em;
+   color: blue;
+ 
+ }
 
 
 #logo {
