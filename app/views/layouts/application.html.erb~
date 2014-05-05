@@ -21,7 +21,7 @@
       <div class="navbar-inner">
         <div class="container">
           <div id="logo">
-            <%= link_to image_tag("umbrella_logo.jpg", alt: "Umbrella", id: 'logo'), root_path %>
+            <%= link_to image_tag("umb_trans_s.png", alt: "Umbrella", id: 'logo'), root_path %>
           </div>
           <nav>
             <ul class="nav pull-right">
@@ -35,11 +35,11 @@
         </div>
       </div>
     </header>
-    
+    <div class="wrapper">
       <div class="container">
         <%= yield %>
       </div>
-    
+    </div>
   </body>
   
   
