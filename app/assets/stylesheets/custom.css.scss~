@@ -96,7 +96,7 @@ p {
 
 .navbar .nav > li > a {
    font-size: 1.3em;
-   color: blue;
+   color: black;
  
  }
 
@@ -138,7 +138,10 @@ footer ul li {
 }
 
 
-
+#cert
+{
+float: right;
+}
 
 
 
