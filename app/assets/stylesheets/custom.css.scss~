@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  padding-top: 60px;
+  padding-top: 300px;
   /* background-image: url('background.jpg'); */
   background: #061145;
   ul {
@@ -39,6 +39,10 @@ textarea {
   position: relative;
   width: 1012px;
 
+}
+
+#carousel_wrapper {
+  width: 1500px;
 }
 
 
@@ -143,6 +147,10 @@ footer ul li {
 float: right;
 }
 
+#bbb
+{
+float: left;
+}
 
 
 
