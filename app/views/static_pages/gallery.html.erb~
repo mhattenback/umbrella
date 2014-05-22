@@ -2,7 +2,7 @@
 <% provide(:title, 'Gallery') %>
 
 
-<h1>Gallery</h1>
+
 <p>
   <div id="blueimp-gallery" class="blueimp-gallery">
     <div class="slides"></div>
