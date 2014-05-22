@@ -7,12 +7,13 @@ html {
 }
 
 body {
-  padding-top: 300px;
+  padding-top: 325px;
   /* background-image: url('background.jpg'); */
   background: #061145;
   ul {
     color: #FFF021;
     font-weight: bold;
+    font-size: 1.3em
   }
 }
 
