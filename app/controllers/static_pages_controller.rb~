@@ -11,6 +11,9 @@ class StaticPagesController < ApplicationController
   def gallery
   end
   
+  def materials
+  end
+  
   def construction
     render :layout => "construction.html.erb"
   end

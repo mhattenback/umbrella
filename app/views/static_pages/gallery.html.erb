@@ -1,7 +1,8 @@
 
 <% provide(:title, 'Gallery') %>
 
-<h1>Gallery</h1>
+
+
 <p>
   <div id="blueimp-gallery" class="blueimp-gallery">
     <div class="slides"></div>
@@ -15,15 +16,60 @@
 </p>
 
 <div id="links">
-  <a href="gallery/photo1.jpg" title="Photo 1">
-    <img src="gallery/thumb_photo1.jpg" alt="Photo 1">
+  <a href="/assets/gallery/01.jpg" title="Photo 1">
+    <%= image_tag("gallery/thumbs/01.png", alt: "1") %>
   </a>
-  <a href="gallery/photo2.jpg" title="Photo 2">
-    <img src="gallery/thumb_photo2.jpg" alt="Photo 2">
+  <a href="/assets/gallery/02.jpg" title="Photo 2">
+    <%= image_tag("gallery/thumbs/02.png", alt: "2") %>
   </a>
-  <a href="gallery/photo3.jpg" title="Photo 3">
-    <img src="gallery/thumb_photo3.jpg" alt="Photo 3">
+  <a href="/assets/gallery/03.jpg" title="Photo 3">
+    <%= image_tag("gallery/thumbs/03.png", alt: "3") %>
+  </a>
+  <a href="/assets/gallery/04.jpg" title="Photo 4">
+    <%= image_tag("gallery/thumbs/04.png", alt: "4") %>
+  </a>
+  <a href="/assets/gallery/05.jpg" title="Photo 5">
+    <%= image_tag("gallery/thumbs/05.png", alt: "5") %>
+  </a>
+  <a href="/assets/gallery/06.jpg" title="Photo 6">
+    <%= image_tag("gallery/thumbs/06.png", alt: "6") %>
+  </a>
+  <a href="/assets/gallery/07.jpg" title="Photo 7">
+    <%= image_tag("gallery/thumbs/07.png", alt: "7") %>
+  </a>
+  <a href="/assets/gallery/08.jpg" title="Photo 8">
+    <%= image_tag("gallery/thumbs/08.png", alt: "8") %>
+  </a>
+  <a href="/assets/gallery/09.jpg" title="Photo 9">
+    <%= image_tag("gallery/thumbs/09.png", alt: "9") %>
+  </a>
+  <a href="/assets/gallery/10.jpg" title="Photo 10">
+    <%= image_tag("gallery/thumbs/10.png", alt: "10") %>
+  </a>
+  <a href="/assets/gallery/11.jpg" title="Photo 11">
+    <%= image_tag("gallery/thumbs/11.png", alt: "11") %>
+  </a>
+  <a href="/assets/gallery/12.jpg" title="Photo 12">
+    <%= image_tag("gallery/thumbs/12.png", alt: "12") %>
+  </a>
+  <a href="/assets/gallery/13.jpg" title="Photo 13">
+    <%= image_tag("gallery/thumbs/13.png", alt: "13") %>
+  </a>
+  <a href="/assets/gallery/14.jpg" title="Photo 14">
+    <%= image_tag("gallery/thumbs/14.png", alt: "14") %>
   </a>
 </div>
 
 
+
+
+<script>
+document.getElementById('links').onclick = function (event) {
+  event = event || window.event;
+  var target = event.target || event.srcElement,
+    link = target.src ? target.parentNode : target,
+    options = {index: link, event: event},
+    links = this.getElementsByTagName('a');
+  blueimp.Gallery(links, options);
+};
+</script>

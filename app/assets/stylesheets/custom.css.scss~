@@ -13,7 +13,7 @@ body {
   ul {
     color: #FFF021;
     font-weight: bold;
-    font-size: 1.3em
+    font-size: 1.1em
   }
 }
 
@@ -46,8 +46,18 @@ textarea {
   width: 1500px;
 }
 
-
-
+#galdiv {
+  width: 1025px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+}
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {

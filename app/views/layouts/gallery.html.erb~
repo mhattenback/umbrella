@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    
+  
+    <title>Umbrella Roofing | <%= yield(:title) %></title>
+    
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= stylesheet_link_tag "application", media: "all",
+                                           "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  
+  
+  <body>
+  
+    <header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="navbar-inner">
+      <div id="bbb">
+      <%= link_to image_tag("bbbl.png", alt: "BBB Acreddited", id: 'bbb'), "http://www.bbb.org/new-york-city/business-reviews/home-improvements/umbrella-home-improvement-inc-in-east-northport-ny-146820" %>
+      </div>
+      
+      <div id="cert">
+            <%= image_tag("MSA.png", alt: "Certainteed", id: 'cert') %>
+          </div>
+          
+          
+        <div class="container">
+          <div id="logo">
+            <%= link_to image_tag("umb_trans_s.png", alt: "Umbrella", id: 'logo'), root_path %>
+          </div>
+          
+          
+          <nav>
+            <ul class="nav pull-right">
+              <li><%= link_to "Home",    root_path %></li>
+              <li><%= link_to "Services",  services_path %></li>
+              <li><%= link_to "Materials",  materials_path %></li>
+              <li><%= link_to "Gallery", gallery_path %></li>
+              <li><%= link_to "Contact", contact_path %></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+   
+        <%= yield %>
+      
+  </body>
+  
+  
+  <div class="navbar navbar-fixed-bottom">
+  <footer class="footer">
+  
+  
+  <nav >
+    <ul>
+      <li><%= link_to "Home",   root_path %></li>
+      <li><%= link_to "Services", services_path %></li>
+      <li><%= link_to "Gallery", gallery_path %></li>
+      <li><%= link_to "Contact", contact_path %></li>
+    </ul>
+  </nav>
+  
+  
+
+  
+</footer>
+</div>
+
+
+</html>
+
+
+
