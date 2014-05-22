@@ -16,6 +16,8 @@
 </p>
 
 <div id="links">
+
+  <%= link_to image_tag("thumbs/01.png", alt: "1"), "/assets/gallery/01.jpg" %>
   <a href="/assets/gallery/01.jpg" title="Photo 1">
     <%= image_tag("gallery/thumbs/01.png", alt: "1") %>
   </a>
