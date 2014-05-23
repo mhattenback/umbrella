@@ -50,7 +50,7 @@ textarea {
   width: 1025px;
   margin: 0 auto;
   padding: 0;
-  position: relative;
+  
   
 }
 /* typography */
