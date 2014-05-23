@@ -51,12 +51,7 @@ textarea {
   margin: 0 auto;
   padding: 0;
   position: relative;
-  h1 {
-  font-size: 3em;
-  letter-spacing: -2px;
-  margin-bottom: 30px;
-  text-align: center;
-}
+  
 }
 /* typography */
 
