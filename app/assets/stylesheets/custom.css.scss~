@@ -10,7 +10,6 @@ body {
   padding-top: 325px;
   /* background-image: url('background.jpg'); */
   background: #061145;
-  width: 2000px;
   ul {
     color: #FFF021;
     font-weight: bold;
