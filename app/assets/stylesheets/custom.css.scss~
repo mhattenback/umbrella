@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  padding-top: 200px;
+  padding-top: 225px;
   /* background-image: url('background.jpg'); */
   background: #061145;
   ul {
