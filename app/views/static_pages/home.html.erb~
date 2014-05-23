@@ -31,7 +31,7 @@
     <div class="item">
       <%= image_tag("slider4.v01.JPG") %>
       <div class="carousel-caption">
-        <p>Beautifull Masonary and Exterior Stonework</p>
+        <p>Beautiful Masonary and Exterior Stonework</p>
       </div>
     </div>
   </div><!-- /.carousel-inner -->

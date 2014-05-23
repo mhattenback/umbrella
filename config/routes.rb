@@ -1,7 +1,7 @@
 UmbrellaSite::Application.routes.draw do
   
-  root   'static_pages#construction'
-  match '/home', to:  'static_pages#home', via: 'get'
+  root   'static_pages#home'
+  
   match '/contact', to: "static_pages#contact", via: 'get'
   match '/services', to: "static_pages#services", via: 'get'
   match '/gallery', to: "static_pages#gallery", via: 'get'
