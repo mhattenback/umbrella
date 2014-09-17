@@ -7,7 +7,6 @@ UmbrellaSite::Application.routes.draw do
   match '/gallery', to: "static_pages#gallery", via: 'get'
   match '/materials', to: "static_pages#materials", via: 'get'
   
-  get 'sitemap.xml', :to => 'sitemap#index', :defaults => { :format => 'xml'}
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
