@@ -18,4 +18,9 @@ class StaticPagesController < ApplicationController
   def construction
     render :layout => "construction.html.erb"
   end
+  
+  def sitemap
+    render :layout => nil
+    
+  end
 end
