@@ -36,10 +36,8 @@
   <%= link_to image_tag("gallery/thumbs/17.png", alt: "17"), image_path("gallery/17.jpg") %>
   <%= link_to image_tag("gallery/thumbs/20.png", alt: "20"), image_path("gallery/20.jpg") %>
   <%= link_to image_tag("gallery/thumbs/21.png", alt: "21"), image_path("gallery/21.jpg") %>
-
   <%= link_to image_tag("gallery/thumbs/24.png", alt: "24"), image_path("gallery/24.jpg") %>
   <%= link_to image_tag("gallery/thumbs/25.png", alt: "25"), image_path("gallery/25.jpg") %>
- 
  
   
 </div>
