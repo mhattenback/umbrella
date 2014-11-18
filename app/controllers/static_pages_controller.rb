@@ -12,6 +12,10 @@ class StaticPagesController < ApplicationController
     render :layout => "gallery.html.erb"
   end
   
+  def c_gallery
+    render :layout => "gallery.html.erb"
+  end
+  
   def materials
   end
   

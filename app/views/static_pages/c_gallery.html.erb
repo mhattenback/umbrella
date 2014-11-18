@@ -1,0 +1,57 @@
+
+<% provide(:title, 'Gallery') %>
+
+
+
+<p>
+  <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">  
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+  </div>
+</p>
+
+<div id="links">
+ 
+  <%= link_to image_tag("gallery/thumbs/01.png", alt: "1"), image_path("gallery/01.jpg") %>
+  <%= link_to image_tag("gallery/thumbs/02.png", alt: "2"), image_path("gallery/02.jpg") %>
+  <%= link_to image_tag("gallery/thumbs/03.png", alt: "3"), image_path("gallery/03.jpg") %>
+  <%= link_to image_tag("gallery/thumbs/04.png", alt: "4"), image_path("gallery/04.jpg") %>
+  <%= link_to image_tag("gallery/thumbs/05.png", alt: "5"), image_path("gallery/05.jpg") %>
+  <%= link_to image_tag("gallery/thumbs/06.png", alt: "6"), image_path("gallery/06.jpg") %>
+  <%= link_to image_tag("gallery/thumbs/07.png", alt: "7"), image_path("gallery/07.jpg") %>
+  <%= link_to image_tag("gallery/thumbs/08.png", alt: "8"), image_path("gallery/08.jpg") %>
+  <%= link_to image_tag("gallery/thumbs/09.png", alt: "9"), image_path("gallery/09.jpg") %>
+  <%= link_to image_tag("gallery/thumbs/10.png", alt: "10"), image_path("gallery/10.jpg") %>
+  <%= link_to image_tag("gallery/thumbs/11.png", alt: "11"), image_path("gallery/11.jpg") %>
+  <%= link_to image_tag("gallery/thumbs/12.png", alt: "12"), image_path("gallery/12.jpg") %>
+  <%= link_to image_tag("gallery/thumbs/13.png", alt: "13"), image_path("gallery/13.jpg") %>
+  <%= link_to image_tag("gallery/thumbs/14.png", alt: "14"), image_path("gallery/14.jpg") %>
+  <%= link_to image_tag("gallery/thumbs/15.png", alt: "15"), image_path("gallery/15.jpg") %>
+  <%= link_to image_tag("gallery/thumbs/16.png", alt: "16"), image_path("gallery/16.jpg") %>
+  <%= link_to image_tag("gallery/thumbs/17.png", alt: "17"), image_path("gallery/17.jpg") %>
+  <%= link_to image_tag("gallery/thumbs/20.png", alt: "20"), image_path("gallery/20.jpg") %>
+  <%= link_to image_tag("gallery/thumbs/21.png", alt: "21"), image_path("gallery/21.jpg") %>
+  <%= link_to image_tag("gallery/thumbs/24.png", alt: "24"), image_path("gallery/24.jpg") %>
+  <%= link_to image_tag("gallery/thumbs/25.png", alt: "25"), image_path("gallery/25.jpg") %>
+ 
+  
+</div>
+
+
+
+
+<script>
+document.getElementById('links').onclick = function (event) {
+  event = event || window.event;
+  var target = event.target || event.srcElement,
+    link = target.src ? target.parentNode : target,
+    options = {index: link, event: event},
+    links = this.getElementsByTagName('a');
+  blueimp.Gallery(links, options);
+};
+</script>
