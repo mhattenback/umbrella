@@ -17,6 +17,8 @@
 
 <div id="links">
  
+ 
+  <%= link_to image_tag("http://s3.amazonaws.com/umbrella-assets/images/c_gallery/thumbs/01.png", alt: "1"), image_path("http://s3.amazonaws.com/umbrella-assets/images/c_gallery/01.jpg") %>
   <%= link_to image_tag("c_gallery/thumbs/01.png", alt: "1"), image_path("c_gallery/01.jpg") %>
   <%= link_to image_tag("c_gallery/thumbs/02.png", alt: "2"), image_path("c_gallery/02.jpg") %>
   <%= link_to image_tag("c_gallery/thumbs/03.png", alt: "3"), image_path("c_gallery/03.jpg") %>
