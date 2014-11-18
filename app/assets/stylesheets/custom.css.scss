@@ -73,11 +73,14 @@ h2 {
 p {
   font-size: 1.1em;
   line-height: 1.6em;
-  text-align: center;
+  text-align: left;
   color: #FFF021;
   font-weight: bold;
 }
 
+.carousel-caption > p{
+  text-align: center;
+}
 
 /* header */
 
