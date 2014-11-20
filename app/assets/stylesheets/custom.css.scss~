@@ -10,12 +10,14 @@ body {
   padding-top: 250px;
   /* background-image: url('background.jpg'); */
   background: #061145;
+  margin-bottom: 1000px;     
   ul {
     color: #FFF021;
     font-weight: bold;
     font-size: 1.0em
   }
 }
+
 
 section {
   overflow: auto;
@@ -78,7 +80,7 @@ p {
   font-weight: bold;
 }
 
-.carousel-caption {
+.carousel-caption > p{
   text-align: center;
 }
 
@@ -122,7 +124,7 @@ p {
 /* footer */
 
 footer {
-  margin-top: 350px;
+  margin-top: 0px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #999;

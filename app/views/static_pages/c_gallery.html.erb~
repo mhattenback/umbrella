@@ -29,7 +29,7 @@
   <%= link_to image_tag("c_gallery/thumbs/08.png", alt: "8"), image_path("c_gallery/08.jpg") %>
   <%= link_to image_tag("c_gallery/thumbs/09.png", alt: "9"), image_path("c_gallery/09.jpg") %>
   <%= link_to image_tag("c_gallery/thumbs/10.png", alt: "10"), image_path("c_gallery/10.jpg") %>
-  <%= link_to image_tag("c_gallery/thumbs/11.png", alt: "11"), image_path("c_gallery/11.jpg") %>
+
   <%= link_to image_tag("c_gallery/thumbs/12.png", alt: "12"), image_path("c_gallery/12.jpg") %>
   <%= link_to image_tag("c_gallery/thumbs/13.png", alt: "13"), image_path("c_gallery/13.jpg") %>
   <%= link_to image_tag("c_gallery/thumbs/14.png", alt: "14"), image_path("c_gallery/14.jpg") %>
