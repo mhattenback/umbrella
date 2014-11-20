@@ -10,7 +10,7 @@ body {
   padding-top: 250px;
   /* background-image: url('background.jpg'); */
   background: #061145;
-  margin-bottom: 1000px;     
+  padding-bottom: 250px;     
   ul {
     color: #FFF021;
     font-weight: bold;
@@ -25,6 +25,17 @@ section {
 
 textarea {
   resize: vertical;
+}
+
+
+#matlinks {
+  padding-top: 100px;
+  
+}
+
+.span8 {
+  
+  padding: 10px;
 }
 
 .center {

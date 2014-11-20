@@ -1,8 +1,12 @@
 
 <% provide(:title, 'Commercial Materials') %>
 
-<h1>Materials</h1>
-<p>
+
+    <div class="container-fluid">
+    <div class="row-fluid">
+    <div class="span8">
+    <h1>Materials</h1>
+     <p>
   Umbrella Roofing and Siding is proud to be the first company certified with Gaco Western as 
   Gaco Qualified Applicators on Long Island. Whether you’re rehabbing an existing foam roof or 
   coating a new metal roof, Gaco Western has a roof system to meet your needs.  Gaco spray foam 
@@ -16,19 +20,32 @@
   Gaco has the breadth and depth of applications to get your project done well and done on time. Click the links
   below for specific information on the application most suited to your roof.
   
-  <ul id='mat'>
+ 
+</p>
+
+    
+    
+    </div>
+    <div class="span4" id="matlinks">
+    
+    <h4>Resources</h4>
+    <ul id='mat'>
     <li><a href="http://www.gaco.com/concrete.html">Concrete Substrate</a></li>
 							<li><a href="http://www.gaco.com/plywood.html">Plywood Substrate</a></li>
 							<li><a href="http://www.gaco.com/roofingsprayfoam.html">Foam Substrate</a></li>
 							<li><a href="http://www.gaco.com/single-ply.html">Single Ply Substrate</a></li>
 							<li><a href="http://www.gaco.com/products/Flyer-Re-cover-Don't-Re-roof.pdf">Re-Cover, Don't Re-Roof Flyer</a></li>
 							<li><a href="http://www.gaco.com/products/Flyer-S20-Family.pdf">GacoFlex S20 Family Brochure</a></li>
-							<li><a href="http://www.gaco.com/products/Flyer-S20-Silicone.pdf">GacoFlex S20 Solvent-Free 100% Silicone Flyer</a></li>
+							<li><a href="http://www.gaco.com/products/Flyer-S20-Silicone.pdf">GacoFlex S20 100% Silicone Flyer</a></li>
 							<li><a href="http://www.gaco.com/products/Flyer-SF2000-SeamSeal.pdf">GacoFlex SF2000 SeamSeal Flyer</a></li>
 							<li><a href="http://www.gaco.com/products/Flyer-SF2036-WalkPad.pdf">GacoFlex SF2036 WalkPad Flyer</a></li>
 							<li><a href="http://www.gaco.com/products/MKGF5503_GacoFlashFoam_Flyer_w.pdf">GacoFlashFoam Flyer</a></li>
 							<li><a href="http://www.gaco.com/instructions/Roof-Maintenance-Guidelines.pdf">Roof Maintenance Instructions</a></li>
     
   </ul>
-</p>
+    </div>
+    </div>
+    </div>
+
+
 
