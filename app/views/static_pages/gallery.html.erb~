@@ -38,9 +38,8 @@
   <%= link_to image_tag("gallery/thumbs/21.png", alt: "21"), image_path("gallery/21.jpg") %>
   <%= link_to image_tag("gallery/thumbs/24.png", alt: "24"), image_path("gallery/24.jpg") %>
   <%= link_to image_tag("gallery/thumbs/25.png", alt: "25"), image_path("gallery/25.jpg") %>
+  <%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/08.png", alt: "25"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/08.jpg") %>
   
-  <%= link_to image_tag("gallery/thumbs/27.png", alt: "27"), image_path("gallery/27.jpg") %>
-
   
 </div>
 
