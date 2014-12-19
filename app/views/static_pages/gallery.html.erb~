@@ -38,13 +38,14 @@
   <%= link_to image_tag("gallery/thumbs/21.png", alt: "21"), image_path("gallery/21.jpg") %>
   <%= link_to image_tag("gallery/thumbs/24.png", alt: "24"), image_path("gallery/24.jpg") %>
   <%= link_to image_tag("gallery/thumbs/25.png", alt: "25"), image_path("gallery/25.jpg") %>
-  <%= link_to image_tag("gallery/thumbs/27.png", alt: "27"), image_path("gallery/27.jpg") %>
-  <%= link_to image_tag("gallery/thumbs/28.png", alt: "28"), image_path("gallery/28.jpg") %>
+<%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/27.png", alt: "27"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/27.jpg") %>
+<%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/28.png", alt: "28"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/28.jpg") %>
   <%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/29.png", alt: "29"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/29.jpg") %>
-  <%= link_to image_tag("gallery/thumbs/30.png", alt: "30"), image_path("gallery/30.jpg") %>
-  <%= link_to image_tag("gallery/thumbs/31.png", alt: "31"), image_path("gallery/31.jpg") %>
-  <%= link_to image_tag("gallery/thumbs/32.png", alt: "32"), image_path("gallery/32.jpg") %>
-  <%= link_to image_tag("gallery/thumbs/33.png", alt: "33"), image_path("gallery/33.jpg") %>
+<%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/30.png", alt: "30"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/30.jpg") %>
+  <%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/31.png", alt: "31"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/31.jpg") %>
+  <%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/32.png", alt: "32"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/32.jpg") %>
+  <%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/33.png", alt: "33"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/33.jpg") %>
+
 
   
 </div>
