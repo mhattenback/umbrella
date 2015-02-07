@@ -91,11 +91,18 @@ p {
   text-align: left;
   color: #FFF021;
   font-weight: bold;
+  
 }
 
 .carousel-caption > p{
   text-align: center;
 }
+
+#winter {
+    color: white;
+    font-size: 1.2em;
+    padding-top: 8px;
+  }
 
 /* header */
 
@@ -134,11 +141,7 @@ p {
   margin-right: auto ;
 }
 
-#winter {
-  color: white;
-  font-size: 1.2em;
-  padding-top: 8px;
-}
+
 
 /* footer */
 
