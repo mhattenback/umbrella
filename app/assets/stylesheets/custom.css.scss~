@@ -29,9 +29,11 @@ textarea {
 
 
 #matlinks {
-  padding-top: 100px;
+  padding: 10px;
   
 }
+
+
 
 .span8 {
   
@@ -130,6 +132,12 @@ p {
   width: 1500px ;
   margin-left: auto ;
   margin-right: auto ;
+}
+
+#winter {
+  color: white;
+  font-size: 1.2em;
+  padding-top: 5px;
 }
 
 /* footer */
