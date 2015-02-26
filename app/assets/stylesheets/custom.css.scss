@@ -33,10 +33,17 @@ textarea {
   
 }
 
+
+
 .panel-body {
 background: gray;
 }
 
+.panel-default > .panel-heading {
+    background-color: #000000;
+    border-color: #DDDDDD;
+    color: #333333;
+}
 .span8 {
   
   padding: 10px;

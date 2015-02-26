@@ -24,11 +24,11 @@
   
     <%= render "header" %>
     
-    <div class="wrapper">
+    
       
         <%= yield %>
       
-    </div>
+    
   </body>
   
   
