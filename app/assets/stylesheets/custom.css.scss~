@@ -33,7 +33,9 @@ textarea {
   
 }
 
-
+.panel-body {
+background: gray;
+}
 
 .span8 {
   
@@ -53,7 +55,7 @@ textarea {
   margin: 0 auto;
   padding: 0;
   position: relative;
-  width: 1012px;
+  width: 950px;
 
 }
 
@@ -94,22 +96,33 @@ p {
   
 }
 
+
+
 .carousel-caption > p{
   text-align: center;
+  color: white;
 }
 
-#winter {
-    color: white;
-    font-size: 1.2em;
-    padding-top: 8px;
-  }
+.carousel-caption {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+}
+
+
 
 /* header */
 
 .navbar-inverse .navbar-inner {
   background-color: #ffea5f; /* Old browsers */
  background-image: none;
+ 
 }
+
+
 
 .navbar-inverse .navbar-inner {
   background-image: -moz-linear-gradient(top, #ffea5f 2%, #ffea5f 43%, #fedd04 93%); /* FF3.6+ */
@@ -126,7 +139,12 @@ p {
 .navbar .nav > li > a {
    font-size: 1.2em;
    color: black;
- 
+   
+  
+ }
+  
+.navbar ul li{
+    display:inline-block;
  }
 
 

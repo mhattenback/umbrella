@@ -4,6 +4,7 @@
 
 
 
+<div class="container">
 
 <div class="wrapper">
 <!--  Carousel - consult the Twitter Bootstrap docs at
@@ -42,7 +43,6 @@
 </div><!-- /.carousel -->
 </div>
 
-div class="container">
 
         <!-- Marketing Icons Section -->
         <div class="row">

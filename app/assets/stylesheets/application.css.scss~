@@ -10,6 +10,7 @@
  *
  *= require_self
  *= require blueimp-gallery-all
+ *= require bootstrap.min
  *= require_tree .
  */
  
