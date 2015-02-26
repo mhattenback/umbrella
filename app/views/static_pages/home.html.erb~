@@ -43,12 +43,40 @@
 </div>
 
 <div class="container">
-
-        <!-- Marketing Icons Section -->
+  <!-- Features Section -->
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
                     Welcome to Umbrella Roofing and Siding
+                </h1>
+            </div>
+            <div class="col-md-6">
+                <p>We are a family owned and run buisiness with over 40 years of experience serving customers on Long Island. Located in Commack, we serve all of Nassau and Suffolk counties. We offer a full range of services including:</p>
+                
+                
+         
+                <ul>
+                  <li> Roof Replacement (commercial & residential)</li>
+                  <li> Roof Repair (commercial & residential) </li>
+                  <li> Siding </li>
+                  <li> Custom Extensions </li>
+                  <li> Exterior Stonework </li>
+                  <li> Windows </li>
+                  <li> Kitchens </li>
+                  <li> Baths </li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="http://placehold.it/700x450" alt="">
+            </div>
+        </div>
+        <!-- /.row -->
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                   <!-- for divider --> 
                 </h1>
             </div>
             <div class="col-md-4">
@@ -81,9 +109,7 @@
                         <h4><i class="fa fa-fw fa-compass"></i> Winter Is Here!</h4>
                     </div>
                     <div class="panel-body">
-                        <p>Snow on roofs can cause ice 
-damming and shingle damage, possibly costing 
-you thousands. An Ice Dam is a hump of ice that forms at the edge of a roof under certain wintertime conditions. An ice dam can damage both your roof and the inside of your home. It will put gutters and downspouts at risk too. Don't let it happen to you, give 
+                        <p>An Ice Dam is a hump of ice that forms at the edge of a roof under certain wintertime conditions. An ice dam can damage both your roof and the inside of your home. It will put gutters and downspouts at risk too. Don't let it happen to you, give 
 us a call and we would be happy to clear and protect 
 your roof through the winter.</p>
                         <a href="#" class="btn btn-default">Learn More</a>
