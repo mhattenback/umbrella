@@ -66,7 +66,7 @@
                   <li> Kitchens </li>
                   <li> Baths </li>
                 </ul>
-                <p> As Certainteed Master Elite installers and Gaco Certified Applicators we can offer industry 
+                <p> As Certainteed Master Elite installers and Gaco Qualified Applicators we can offer industry 
                 leading warrantees for both commercial and residential projects. All of our estimates are 100% free, 
                 please call today for a consultation with the owner.</p>
             </div>
@@ -91,7 +91,7 @@
                         <p>As exterior specialists we have the vision and the resources to provide
   anything from a small roof or siding repair, to a complete and total home makeover. Our Owner will work with you personally to design
   the specific job to meet your needs. Please contact us today to discuss how we can make your dream home a reality.</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <%= button_to "Learn More",   services_path, :method => :get %>
                     </div>
                 </div>
             </div>
@@ -102,7 +102,7 @@
                     </div>
                     <div class="panel-body">
                         <p>Whether you have a small repair or a full replacement, Umbrella has a solution to fit your needs. We know that every project is different so it is important to us to offer as many options as possible. From a simple torch down, to the modern seamless silicon roofs there will be an option perfect for your situation.</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <%= button_to "Learn More",   services_path, :method => :get %>
                     </div>
                 </div>
             </div>
