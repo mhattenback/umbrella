@@ -8,7 +8,6 @@ UmbrellaSite::Application.routes.draw do
   match '/materials', to: "static_pages#materials", via: 'get'
   match '/c_gallery', to: "static_pages#c_gallery", via: 'get'
   match '/c_materials', to: "static_pages#c_materials", via: 'get'
-  match '/services#service-1', to: "static_pages#service_one", via: 'get'
   
   get 'sitemap.xml', :to => 'static_pages#sitemap', :defaults => { :format => 'xml' }
   # The priority is based upon order of creation: first created -> highest priority.

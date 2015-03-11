@@ -9,6 +9,11 @@ UmbrellaSite::Application.routes.draw do
   match '/c_gallery', to: "static_pages#c_gallery", via: 'get'
   match '/c_materials', to: "static_pages#c_materials", via: 'get'
   
+  
+  match '/contacts',     to: 'contacts#new',             via: 'get'
+  resources "contacts", only: [:new, :create]
+  
+  
   get 'sitemap.xml', :to => 'static_pages#sitemap', :defaults => { :format => 'xml' }
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
