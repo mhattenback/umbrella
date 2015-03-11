@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .list-unstyled {
-    background: black;
+    float: left;
   
 
 }
@@ -181,7 +181,7 @@ p {
 /* footer */
 
 footer {
-  margin-top: 0px;
+  margin-top: 50px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #999;
