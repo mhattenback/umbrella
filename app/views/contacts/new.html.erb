@@ -56,8 +56,9 @@
             </div>
         </div>
         <!-- /.row -->
-
-         <h3>Send A message to Us</h3>
+ <div class="row">
+            <div class="col-md-8">
+         <h3>Send us a message</h3>
 
   <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
     <%= f.input :name, :required => true %>
@@ -74,7 +75,8 @@
     </div>
   <% end %>
 </div>
-
+</div>
+</div>
 
         
 
