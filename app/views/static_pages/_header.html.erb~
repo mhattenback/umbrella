@@ -1,5 +1,4 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
- <container class="nav-contain">
   <div class="navbar-inner">
     <div id="bbb">
       <%= link_to image_tag("bbbl.png", alt: "BBB Acreddited", id: 'bbb'), "http://www.bbb.org/new-york-city/business-reviews/home-improvements/umbrella-home-improvement-inc-in-east-northport-ny-146820" %>
@@ -39,5 +38,4 @@
       </nav>
     </div>
   </div>
-  </container>
 </header>

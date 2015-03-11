@@ -115,7 +115,7 @@
                         <p>An Ice Dam is a hump of ice that forms at the edge of a roof under certain wintertime conditions. An ice dam can damage both your roof and the inside of your home. It will put gutters and downspouts at risk too. Don't let it happen to you, give 
 us a call and we would be happy to clear and protect 
 your roof through the winter.</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                         <%= button_to "Learn More",   services_path, :method => :get %>
                     </div>
                 </div>
             </div>
