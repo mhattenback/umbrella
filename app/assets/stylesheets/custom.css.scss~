@@ -261,6 +261,15 @@ textarea {
     width: 100%;
 }
 
+label {
+
+  font-size: 1.1em;
+  line-height: 1.6em;
+  text-align: left;
+  color: #FFF021;
+  font-weight: bold;
+}
+
 .button {
 
   width: 20%;
@@ -297,5 +306,13 @@ color: #468847;
 text-align: left;
 }
 
+.page-header {
+ font-size: 1.1em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #999;
 
+}
 
