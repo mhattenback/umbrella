@@ -101,6 +101,6 @@ UmbrellaSite::Application.configure do
     password: ENV["GMAIL_PASSWORD"]
   }
   
-  
+  config.assets.compile = true
   
 end
