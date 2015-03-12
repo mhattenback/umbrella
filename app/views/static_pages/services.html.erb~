@@ -26,48 +26,112 @@
                         <h4>Commercial</h4>
                         
                          <div class="col-md-6">
-                <p>We are a family owned and run buisiness with over 40 years of experience serving customers on Long Island. 
-                Located in Commack, we serve all of Nassau and Suffolk counties. We offer a full range of services including:</p>
+                <p> Umbrella Roofing and Siding is proud to be the first company certified with Gaco Western as 
+  Gaco Qualified Applicators on Long Island. Whether you’re rehabbing an existing foam roof or 
+  coating a new metal roof, Gaco Western has a roof system to meet your needs.  Gaco spray foam 
+  and coatings provide seamless insulation and waterproofing, and are fully adhered to the substrate. 
+  This eliminates common sources of leaks and pooling water beneath roofing material. 
+  Gaco coatings are elastomeric, meaning they are able to stretch as the substrate warms and cools 
+  through the day and through the seasons.  Characterized by high physical properties, GacoFlex 
+  coatings are tough enough to withstand years of abuse by sun and weather.
+  Gaco has also developed roof systems to meet specific project requirements.  
+  From quick-set spray applications, to highly reflective coatings designed to lower your energy bills, 
+  Gaco has the breadth and depth of applications to get your project done well and done on time. Click the links
+  below for specific information on the application most suited to your roof.</p>
                 
-                
+               
          
-                <ul>
-                  <li> Roof Replacement (commercial & residential)</li>
-                  <li> Roof Repair (commercial & residential) </li>
-                  <li> Siding </li>
-                  <li> Custom Extensions </li>
-                  <li> Exterior Stonework </li>
-                  <li> Windows </li>
-                  <li> Kitchens </li>
-                  <li> Baths </li>
-                </ul>
-                <p> As Certainteed Master Elite installers and Gaco Qualified Applicators we can offer industry 
-                leading warrantees for both commercial and residential projects. All of our estimates are 100% free, 
-                please call today for a consultation with the owner.</p>
+    
+    <ul id='mat'>
+    <li><a href="http://www.gaco.com/concrete.html">Concrete Substrate</a></li>
+							<li><a href="http://www.gaco.com/plywood.html">Plywood Substrate</a></li>
+							<li><a href="http://www.gaco.com/roofingsprayfoam.html">Foam Substrate</a></li>
+							<li><a href="http://www.gaco.com/single-ply.html">Single Ply Substrate</a></li>
+							<li><a href="http://www.gaco.com/products/Flyer-Re-cover-Don't-Re-roof.pdf">Re-Cover, Don't Re-Roof Flyer</a></li>
+							<li><a href="http://www.gaco.com/products/Flyer-S20-Family.pdf">GacoFlex S20 Family Brochure</a></li>
+							<li><a href="http://www.gaco.com/products/Flyer-S20-Silicone.pdf">GacoFlex S20 100% Silicone Flyer</a></li>
+							<li><a href="http://www.gaco.com/products/Flyer-SF2000-SeamSeal.pdf">GacoFlex SF2000 SeamSeal Flyer</a></li>
+							<li><a href="http://www.gaco.com/products/Flyer-SF2036-WalkPad.pdf">GacoFlex SF2036 WalkPad Flyer</a></li>
+							<li><a href="http://www.gaco.com/products/MKGF5503_GacoFlashFoam_Flyer_w.pdf">GacoFlashFoam Flyer</a></li>
+							<li><a href="http://www.gaco.com/instructions/Roof-Maintenance-Guidelines.pdf">Roof Maintenance Instructions</a></li>
+    
+  </ul>
             </div>
             <div class="col-md-6">
-                <img class="img-responsive" src="http://placehold.it/700x450" alt="">
+                <%= image_tag 'gaco.jpg', :class => "img-responsive" %>
             </div>
+            
+           
                     </div>
                     <div class="tab-pane fade" id="service-two">
-                        <h4>Residential</h4>
-                         <div class="col-md-6">
+                       
+                        
                 <!-- Service List -->
         <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">Service List</h2>
+                <h2 class="page-header">Residential</h2>
             </div>
-            <div class="col-lg-12">
+            <div class="col-md-4">
                 <div class="media">
                     <div class="pull-left">
                         <span class="fa-stack fa-2x">
                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                              <i class="fa fa-umbrella fa-stack-1x fa-inverse"></i>
                         </span> 
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">Service One</h4>
+                        <h4 class="media-heading">Roofing</h4>
+                        <p>From minor repairs to a full rip and re-roof, Umbrella has you covered.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-umbrella fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Siding</h4>
+                        <p>Our experienced siding teams will revitalize the look of your home.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-umbrella fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Extensions</h4>
+                        <p>Need more living space? From framing to siding and roofing, we can handle an extension project from start to finish.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-umbrella fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Porticos</h4>
+                        <p>Add some dimension to your house with a new portico!</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-umbrella fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Windows</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
                     </div>
                 </div>
@@ -75,23 +139,11 @@
                     <div class="pull-left">
                         <span class="fa-stack fa-2x">
                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-car fa-stack-1x fa-inverse"></i>
+                              <i class="fa fa-umbrella fa-stack-1x fa-inverse"></i>
                         </span> 
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">Service Two</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-                    </div>
-                </div>
-                <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-support fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Service Three</h4>
+                        <h4 class="media-heading">Kitchens</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
                     </div>
                 </div>
@@ -101,11 +153,11 @@
                     <div class="pull-left">
                         <span class="fa-stack fa-2x">
                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                              <i class="fa fa-umbrella fa-stack-1x fa-inverse"></i>
                         </span> 
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">Service Four</h4>
+                        <h4 class="media-heading">Bathrooms</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
                     </div>
                 </div>
@@ -113,11 +165,11 @@
                     <div class="pull-left">
                         <span class="fa-stack fa-2x">
                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-bomb fa-stack-1x fa-inverse"></i>
+                              <i class="fa fa-umbrella fa-stack-1x fa-inverse"></i>
                         </span> 
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">Service Five</h4>
+                        <h4 class="media-heading">Masonry</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
                     </div>
                 </div>
@@ -125,49 +177,11 @@
                     <div class="pull-left">
                         <span class="fa-stack fa-2x">
                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-bank fa-stack-1x fa-inverse"></i>
+                              <i class="fa fa-umbrella fa-stack-1x fa-inverse"></i>
                         </span> 
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">Service Six</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-paper-plane fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Service Seven</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-                    </div>
-                </div>
-                <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-space-shuttle fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Service Eight</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-                    </div>
-                </div>
-                <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-recycle fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Service Nine</h4>
+                        <h4 class="media-heading">Roof Protection Plans</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
                     </div>
                 </div>
@@ -176,7 +190,6 @@
         <!-- /.row -->
             
            
-                    </div>
                 
                 </div>
 
