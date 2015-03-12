@@ -16,6 +16,12 @@ body {
     font-weight: bold;
     font-size: 1.0em
   }
+  
+
+    -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+    zoom: 0.8; /* Other non-webkit browsers */
+    zoom: 80%; /* Webkit browsers */
+
 }
 
 h3 {
@@ -306,13 +312,5 @@ color: #468847;
 text-align: left;
 }
 
-.page-header {
- font-size: 1.1em;
-  letter-spacing: -1px;
-  margin-bottom: 30px;
-  text-align: center;
-  font-weight: normal;
-  color: #999;
 
-}
 
