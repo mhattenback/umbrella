@@ -69,11 +69,9 @@
 <%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/60.png", alt: "60"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/60.jpg") %>
 <%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/61.png", alt: "61"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/61.jpg") %>
 <%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/62.png", alt: "62"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/62.jpg") %>
-<
+<%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/63.png", alt: "63"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/63.jpg") %>
+<%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/64.png", alt: "64"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/64.jpg") %>
 
-
-
-  
 </div>
 
 
