@@ -47,7 +47,7 @@
   <%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/33.png", alt: "33"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/33.jpg") %>
   <%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/38.png", alt: "38"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/38.jpg") %>
 <%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/39.png", alt: "39"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/39.jpg") %>
-<%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/40.png", alt: "40"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/40.jpg") %>
+
 <%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/41.png", alt: "41"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/41.jpg") %>
 <%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/42.png", alt: "42"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/42.jpg") %>
 <%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/43.png", alt: "43"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/43.jpg") %>
@@ -56,7 +56,7 @@
 <%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/46.png", alt: "46"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/46.jpg") %>
 <%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/47.png", alt: "47"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/47.jpg") %>
 <%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/48.png", alt: "48"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/48.jpg") %>
-<%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/49.png", alt: "49"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/49.jpg") %>
+
 <%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/50.png", alt: "50"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/50.jpg") %>
 
 <%= link_to image_tag("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/thumbs/54.png", alt: "54"), image_path("https://s3-us-west-2.amazonaws.com/umbrella-assets/images/gallery/54.jpg") %>
