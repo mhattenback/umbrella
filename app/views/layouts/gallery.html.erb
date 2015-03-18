@@ -21,15 +21,19 @@
   </head>
   
   
-  <body>
+ <body>
   
     <%= render "header" %>
+    
+  <div class="container"  
       
         <%= yield %>
       
-  </body>
-   
-  <div class="navbar navbar-fixed-bottom">
+    
+  
+  
+  
+  <div class="navbar">
   <footer class="footer">
   
   
@@ -38,20 +42,20 @@
       <li><%= link_to "Home",   root_path %></li>
       <li><%= link_to "Services", services_path %></li>
       <li><%= link_to "Gallery", gallery_path %></li>
-      <li><%= link_to "Contact", contact_path %></li>
+      <li><%= link_to "Contact", contacts_path %></li>
     </ul>
   </nav>
   
+  
+ 
   
 
   
 </footer>
 </div>
 
-  
- 
-
+</div>
+</body> 
 </html>
-
 
 
