@@ -1,0 +1,9 @@
+<h1>All Testimonials</h1>
+<%= will_paginate %>
+<ul class="testimonials">
+<%= render @testimonials %>
+</ul>
+<%= will_paginate %>
+
+
+<%= link_to 'New Testimonial', new_testimonial_path %>

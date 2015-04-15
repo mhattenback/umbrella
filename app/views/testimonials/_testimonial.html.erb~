@@ -1,0 +1,10 @@
+<li>
+
+<%= @testimonials.name %>
+<%= @testimonials.address %>
+<%= @testimonials.testimonial_body %>
+
+</li>
+
+
+
