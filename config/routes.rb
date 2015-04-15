@@ -11,7 +11,7 @@ UmbrellaSite::Application.routes.draw do
   
   
   match '/contacts',     to: 'contacts#new',             via: 'get'
-  match '/testimonials', to: "static_pages#testimonials", via: 'get'
+
   resources "contacts", only: [:new, :create]
   
   

@@ -30,4 +30,8 @@ class StaticPagesController < ApplicationController
     render :layout => nil
     
   end
+  
+  def testimonials
+  
+  end
 end

@@ -31,7 +31,5 @@ class StaticPagesController < ApplicationController
     
   end
   
-  def testimonials
-  
-  end
+
 end
