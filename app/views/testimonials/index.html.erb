@@ -1,0 +1,23 @@
+<h1>All Testimonials</h1>
+<%= will_paginate %>
+<ul class="testimonials">
+<li>
+<ul class="users">
+  <% @testimonials.each do |testimonial| %>
+    <li>
+      
+      <%= testimonial.name %>
+      <%= testimonial.address %>
+      <%= testimonial.testimonial_body %>
+    </li>
+  <% end %>
+</ul>
+</li>
+
+
+
+</ul>
+<%= will_paginate %>
+
+
+<%= link_to 'New Testimonial', new_testimonial_path %>

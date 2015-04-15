@@ -1,0 +1,8 @@
+class Testimonial < ActiveRecord::Base
+  attribute :name,      :validate => true
+  attribute :address,     :validate => true
+
+  attribute :testimonial_body, :validate => true
+
+
+end

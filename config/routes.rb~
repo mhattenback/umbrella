@@ -1,5 +1,7 @@
 UmbrellaSite::Application.routes.draw do
   
+  resources :testimonials
+
   root   'static_pages#home'
   
   match '/contact', to: "static_pages#contact", via: 'get'
@@ -11,8 +13,13 @@ UmbrellaSite::Application.routes.draw do
   
   
   match '/contacts',     to: 'contacts#new',             via: 'get'
-  match '/testimonials', to: "static_pages#testimonials", via: 'get'
+  
+  match '/testimonials'  to: 'testimonials#index' ,      via: 'get'
+  
+  
+  
   resources "contacts", only: [:new, :create]
+  resources "testimonials"
   
   
   get 'sitemap.xml', :to => 'static_pages#sitemap', :defaults => { :format => 'xml' }
