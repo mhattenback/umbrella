@@ -34,7 +34,7 @@
        
         <div class="col-md-4">
           <span id='t_name' style='color: gray;'>
-          </br>
+         
             - <%= testimonial.name %> </br>
             <%= testimonial.address %>
           </span>
@@ -51,6 +51,8 @@
 <%= will_paginate %>
 
 
-<%= link_to 'New Testimonial', new_testimonial_path %>
+<span>
+<%= button_to "Submit a Testimonial!",   new_testimonial_path, :method => :get, :html => {:class => 'btn.btn-large.btn-primary'} %>
+</span>
 
 
