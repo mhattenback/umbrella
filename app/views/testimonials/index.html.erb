@@ -1,18 +1,49 @@
-<h1>All Testimonials</h1>
+<% provide(:title, 'Testimonials') %>
+
+
+
+   
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Testimonials
+                   
+                </h1>
+                
+            </div>
+        </div>
+        <!-- /.row -->
 <%= will_paginate %>
 <ul class="testimonials">
-<li>
-<ul class="users">
+
+
   <% @testimonials.each do |testimonial| %>
-    <li>
-      
-      <%= testimonial.name %>
-      <%= testimonial.address %>
-      <%= testimonial.testimonial_body %>
-    </li>
+    <div class="well">
+  
+      <div class="row" class="quote">
+        <div class="col-md-8">
+          <span style='color: gray;'>
+            
+            "<%= testimonial.testimonial_body %>"
+            
+          </span>
+       </div>
+       
+        <div class="col-md-4">
+          <span id='t_name' style='color: gray;'>
+         
+            - <%= testimonial.name %> </br>
+            <%= testimonial.address %>
+          </span>
+         </div>
+              
+      </div>
+   
+    </div> 
   <% end %>
-</ul>
-</li>
 
 
 
@@ -21,3 +52,5 @@
 
 
 <%= link_to 'New Testimonial', new_testimonial_path %>
+
+

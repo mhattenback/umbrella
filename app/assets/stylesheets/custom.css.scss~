@@ -133,6 +133,7 @@ p {
 
 
 
+
 /* header */
 
 .navbar-inverse .navbar-inner {
@@ -167,8 +168,9 @@ p {
  }
 
 
-#logo {
+#t_name {
   
+  padding-top: 10px;
  
 }
 
@@ -256,7 +258,7 @@ textarea {
     color: #555555;
     display: block;
     font-size: 14px;
-    height: 200px !important;
+    height: 200px;
     line-height: 1.42857;
     padding: 6px 12px;
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
