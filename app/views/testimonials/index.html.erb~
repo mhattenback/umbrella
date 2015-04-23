@@ -36,7 +36,23 @@
           <span id='t_name' style='color: gray;'>
          
             - <%= testimonial.name %> </br>
-            <%= testimonial.address %>
+            <%= testimonial.address %> </br>
+            <%= if testimonial.phone_number[9] 
+                 "("testimonial.phone_number.gsub(/\D/, '')[0,3]")" testimonial.phone_number.gsub(/\D/, '')[4,7]
+                 else
+                  "(631)" testimonial.phone_number.gsub(/\D/, '')[0,3] "-" testimonial.phone_number.gsub(/\D/, '')[4,7]
+                end      
+             %>
+             
+             <%= if testimonial.phone_number 
+                  testimonial.phone_number.gsub(/\D/, '')[4,7] 
+                end      
+             %> -  <%= if testimonial.phone_number 
+                  testimonial.phone_number.gsub(/\D/, '')[4,7] 
+                end      
+             %>
+             
+             
           </span>
          </div>
               
@@ -50,7 +66,7 @@
 </ul>
 <%= will_paginate %>
 <span style="display:block; width:200px;">
-<%= button_to "Submit a Testimonial!",   new_testimonial_path, :method => :get, :class=> "btn btn-primary" %>
+<%= button_to "Submit a Testimonial",   new_testimonial_path, :method => :get, :class=> "btn btn-primary" %>
 </span>
 
 
