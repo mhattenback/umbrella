@@ -49,10 +49,8 @@
 
 </ul>
 <%= will_paginate %>
-
-
-<span>
-<%= button_to "Submit a Testimonial!",   new_testimonial_path, :method => :get, :html => {:class => 'btn.btn-large.btn-primary'} %>
+<span style="display:block; width:200px;">
+<%= button_to "Submit a Testimonial!",   new_testimonial_path, :method => :get, :class=> "btn btn-primary" %>
 </span>
 
 
