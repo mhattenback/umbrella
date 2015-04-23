@@ -28,12 +28,18 @@ class TestimonialsController < ApplicationController
     @testimonial = Testimonial.new(testimonial_params)
 
     respond_to do |format|
-      if @testimonial.save
-        format.html { redirect_to @testimonial, notice: 'Testimonial was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @testimonial }
+    
+      if verify_recaptcha
+        if @testimonial.save
+          format.html { redirect_to @testimonial, notice: 'Thank your for your testimonial! Have a nice day.' }
+          format.json { render action: 'show', status: :created, location: @testimonial }
+        else
+          format.html { render action: 'new' }
+          format.json { render json: @testimonial.errors, status: :unprocessable_entity }
+        end
       else
         format.html { render action: 'new' }
-        format.json { render json: @testimonial.errors, status: :unprocessable_entity }
+      
       end
     end
   end
@@ -42,6 +48,8 @@ class TestimonialsController < ApplicationController
   # PATCH/PUT /testimonials/1.json
   def update
     respond_to do |format|
+    
+    if verify_recaptcha
       if @testimonial.update(testimonial_params)
         format.html { redirect_to @testimonial, notice: 'Testimonial was successfully updated.' }
         format.json { head :no_content }
@@ -49,7 +57,10 @@ class TestimonialsController < ApplicationController
         format.html { render action: 'edit' }
         format.json { render json: @testimonial.errors, status: :unprocessable_entity }
       end
+    else
+      format.html { render action: 'edit' }
     end
+  end
   end
 
   # DELETE /testimonials/1

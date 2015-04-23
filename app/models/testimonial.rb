@@ -14,6 +14,8 @@ class Testimonial < ActiveRecord::Base
   validates :name, presence: true
   validates :address, presence: true
   validates :testimonial_body, presence: true
+  
+  
 
 
 end

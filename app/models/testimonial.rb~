@@ -11,9 +11,12 @@
 #
 
 class Testimonial < ActiveRecord::Base
+  apply_simple_captcha
   validates :name, presence: true
   validates :address, presence: true
   validates :testimonial_body, presence: true
+  
+  
 
 
 end

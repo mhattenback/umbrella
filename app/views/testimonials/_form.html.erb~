@@ -9,8 +9,11 @@
     <%= f.input :testimonial_body, :as => :text, :required => true %>
     
     
-
+    <%= show_simple_captcha %>
   <div class="form-actions">
-    <%= f.button :submit %>
+  <span style="display:block; width:200px;">
+     <%= f.button :submit, :class=> "btn btn-primary" %>
+  </span>
   </div>
 <% end %>
+

@@ -14,7 +14,7 @@ gem 'will_paginate',           '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
 
 
-
+gem "recaptcha", require: "recaptcha/rails", github: "ambethia/recaptcha"
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
