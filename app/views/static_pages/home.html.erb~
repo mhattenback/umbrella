@@ -25,7 +25,7 @@
     <div class="item">
       <%= image_tag("slider3.v01.JPG") %>
       <div class="carousel-caption">
-        <p>Custom Doghouse</p>
+        <p>Torch-down Flat Roof</p>
       </div>
     </div>
     <div class="item">
@@ -72,7 +72,7 @@
             </div>
             <div class="col-md-6">
                
-                <%= image_tag 'truck.jpeg', :class => "img-responsive" %>
+                <%= image_tag 'truck.jpg', :class => "img-responsive" %>
           
             </div>
         </div>
@@ -100,7 +100,7 @@
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-gift"></i> Cutting Edge Commercial Roofing</h4>
+                        <h4><i class="fa fa-fw fa-gift"></i>Cutting Edge Commercial Roofing</h4>
                     </div>
                     <div class="panel-body">
                         <p>Whether you have a small repair or a full replacement, Umbrella has a solution to fit your needs. We know that every project is different so it is important to us to offer as many options as possible. From a simple torch down, to the modern seamless silicon roofs there will be an option perfect for your situation.</p>
@@ -111,12 +111,10 @@
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-compass"></i> Winter Is Here!</h4>
+                        <h4><i class="fa fa-fw fa-compass"></i>Roof Maintenance</h4>
                     </div>
                     <div class="panel-body">
-                        <p>An Ice Dam is a hump of ice that forms at the edge of a roof under certain wintertime conditions. An ice dam can damage both your roof and the inside of your home. It will put gutters and downspouts at risk too. Don't let it happen to you, give 
-us a call and we would be happy to clear and protect 
-your roof through the winter.</p>
+                        <p>Times are tight and it might not be possible to get a brand new roof. Instead extend the life of your current roof with roof maintenance from Umbrella. We will go over your roof, fix any leaks, replace missing shingles and do whatever we can to make your roof sound and secure. Sign up for a maintanace plan today!</p>
                          <%= button_to "Learn More",   services_path, :method => :get %>
                     </div>
                 </div>
