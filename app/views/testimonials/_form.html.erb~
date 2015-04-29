@@ -4,15 +4,16 @@
   <div class="form-inputs">
    <%= f.input :name, :required => true %>
     <%= f.input :address, :required => true %>
+    <%= f.input :phone_number, :required => false %>
    
     
-    <%= f.input :testimonial_body, :as => :text, :required => true %>
+    <%= f.input :testimonial_body, :as => :text, :required => true, :label => "Testimonial" %>
     
     
     <%= recaptcha_tags %>
   <div class="form-actions">
   <span style="display:block; width:200px;">
-     <%= f.button :submit, :class=> "btn btn-primary" %>
+     <%= f.button :submit, :class=> "btn btn-primary", :label => "Submit" %>
   </span>
   </div>
 <% end %>

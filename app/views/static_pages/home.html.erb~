@@ -25,7 +25,7 @@
     <div class="item">
       <%= image_tag("slider3.v01.JPG") %>
       <div class="carousel-caption">
-        <p>Torch-down Flat Roof</p>
+        <p>Flat Roof Specialists</p>
       </div>
     </div>
     <div class="item">
