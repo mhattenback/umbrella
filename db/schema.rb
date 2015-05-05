@@ -11,22 +11,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150423183953) do
+ActiveRecord::Schema.define(version: 20150429153908) do
 
-  create_table "jobs", force: true do |t|
-    t.string   "project_name"
-    t.string   "subheading"
-    t.text     "blurb"
-    t.string   "cover_img"
-    t.string   "img_one"
-    t.string   "img_two"
-    t.string   "img_three"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "detail_one"
-    t.string   "detail_two"
-    t.string   "detail_three"
-  end
 
   create_table "testimonials", force: true do |t|
     t.string   "name"
