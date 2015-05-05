@@ -1,0 +1,42 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner">
+    <div id="bbb">
+      <%= link_to image_tag("bbbl.png", alt: "BBB Acreddited", id: 'bbb'), "http://www.bbb.org/new-york-city/business-reviews/home-improvements/umbrella-home-improvement-inc-in-east-northport-ny-146820" %>
+    </div>    
+    <div id="cert">
+      <%= image_tag("MSA.png", alt: "Certainteed", id: 'cert') %>
+    </div>
+    <div class="container">
+      <div id="logo">
+        <%= link_to image_tag("umb_trans_s.png", alt: "Umbrella", id: 'logo'), root_path %>
+      </div> 
+      <nav>
+        <ul class="nav pull-right">
+          <li><%= link_to "Home",    root_path %></li>
+          <li><%= link_to "Services",  services_path %></li>              
+        
+          <li id="fat-menu" class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              Materials <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><%= link_to "Residential", materials_path %></li>
+              <li><%= link_to "Commerical", c_materials_path %></li>
+            </ul>
+          </li>    
+          <li id="fat-menu" class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              Gallery <b class="caret"></b>
+            </a>
+              <ul class="dropdown-menu">
+                <li><%= link_to "Residential", gallery_path %></li>
+                <li><%= link_to "Commerical", c_gallery_path %></li>
+              </ul>
+           </li>  
+           <li><%= link_to "Testimonials", testimonials_path %></li>                       
+           <li><%= link_to "Contact", contacts_path %></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
