@@ -25,11 +25,11 @@
   
     <%= render "header" %>
     
-  <div class="container">
+  
       
         <%= yield %>
       
-    
+  <div class="container">  
   
   
   
