@@ -11,6 +11,8 @@ UmbrellaSite::Application.routes.draw do
   match '/c_gallery', to: "static_pages#c_gallery", via: 'get'
   match '/c_materials', to: "static_pages#c_materials", via: 'get'
   
+  match '/portfolio', to: "portfolios#p_index", via: 'get'
+  match '/tuttnauer', to: "portfolios#tuttnauer", via: 'get'
   
   match '/contacts',     to: 'contacts#new',             via: 'get'
   

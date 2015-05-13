@@ -11,10 +11,12 @@ UmbrellaSite::Application.routes.draw do
   match '/c_gallery', to: "static_pages#c_gallery", via: 'get'
   match '/c_materials', to: "static_pages#c_materials", via: 'get'
   
+  match '/portfolio', to: "portfolios#p_index", via: 'get'
+  match '/job_one', to: "portfolios#harvey", via: 'get'
   
   match '/contacts',     to: 'contacts#new',             via: 'get'
   
-  match '/testimonials'  to: 'testimonials#index' ,      via: 'get'
+  match '/testimonials',  to: 'testimonials#index' ,      via: 'get'
   
   
   
