@@ -13,6 +13,7 @@ UmbrellaSite::Application.routes.draw do
   
   match '/portfolio', to: "portfolios#p_index", via: 'get'
   match '/tuttnauer', to: "portfolios#tuttnauer", via: 'get'
+  match '/harvey', to: "portfolios#harvey", via: 'get'
   
   match '/contacts',     to: 'contacts#new',             via: 'get'
   

@@ -29,7 +29,7 @@
                 <p>This job was a multifaceted rehabilitation project. Tuttnauer's roof had leaks and rusted out metal decking that was failiing structrually. 
                 Upon inspection Umbrella and Tuttnauer decided to go with a partial rip and reroof to replace the areas of damaged decking, and to recieve their entire roof coated
                 with Gaco S20 silicone system.</p>
-                <span style="display:block; width:150px;">
+                <span style="display:block; width:100px;">
                   <%= button_to "View Project", tuttnauer_path, :class=> "btn btn-primary", :method => :get %>
                 </span>
             </div>
@@ -42,13 +42,13 @@
         <div class="row">
             <div class="col-md-7">
                 <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x300" alt="">
+                    <img class="img-responsive img-hover" src="https://s3-us-west-2.amazonaws.com/umbrella-assets/images/projects/harvey/harvey.JPG" alt="">
                 </a>
             </div>
             <div class="col-md-5">
-                <h3>Project Two</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
+                <h3>Harvey Residence</h3>
+                <h4>55 Wilmington Drive Dix Hills, NY, 11746</h4>
+                <p>The Harvey Residence was a full roof and siding rip and replacement. NEw split stone was installed along with siding and Certainteed Landmark TL Shingles. </p>
                 <a class="btn btn-primary" href="portfolio-item.html">View Project</i></a>
             </div>
         </div>
